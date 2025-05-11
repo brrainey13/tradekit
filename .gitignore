@@ -1,0 +1,27 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ── Envs ────────────────────────────────────────────────
+.venv/
+.env/
+*.env
+quantkit/lib/
+quantkit/lib/python*/site-packages/
+quantkit
+
+# ── Jupyter ─────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── VS Code ─────────────────────────────────────────────
+.vscode/
+
+# ── OS cruft ────────────────────────────────────────────
+.DS_Store
+Thumbs.db
