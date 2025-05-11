@@ -23,3 +23,7 @@ build/
 # ── OS cruft ────────────────────────────────────────────
 .DS_Store
 Thumbs.db
+
+.benchmarks
+.pytest_cache
+.ruff_cache
