@@ -27,3 +27,7 @@ Thumbs.db
 .benchmarks
 .pytest_cache
 .ruff_cache
+
+# ── Notebooks ───────────────────────────────────────────
+notebooks/
+

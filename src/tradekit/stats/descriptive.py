@@ -8,3 +8,11 @@ def describe(df: pd.DataFrame) -> pd.DataFrame:
     """
 
     return df.describe()
+def mean(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Creating my own mean function to practice
+    dont just return df.mean()
+    """
+
+    
+    
