@@ -8,10 +8,12 @@ on:
 jobs:
   lint-and-test:
     runs-on: ubuntu-latest
+
     steps:
     - uses: actions/checkout@v4
 
-    - uses: actions/setup-python@v5
+    - name: Set up Python
+      uses: actions/setup-python@v5
       with:
         python-version: '3.11'
 
@@ -22,7 +24,7 @@ jobs:
         pip install -e .
 
     - name: Ruff lint
-      run: ruff src/ tests/ --output-format github
+      run: ruff check src tests --output-format github
 
     - name: PyTest
       run: python -m pytest -q
