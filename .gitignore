@@ -12,9 +12,7 @@ build/
 .venv/
 .env/
 *.env
-quantkit/lib/
-quantkit/lib/python*/site-packages/
-quantkit
+
 
 # ── Jupyter ─────────────────────────────────────────────
 .ipynb_checkpoints/

@@ -1,7 +1,7 @@
 import pandas as pd
 import pytest
 
-import quantkit as qk  # editable-installed package
+import tradekit as qk  # editable-installed package
 
 
 def test_describe_mean_only():
